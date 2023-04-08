@@ -1,0 +1,66 @@
+body{
+    background: #0099F7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#banner{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 50px rgb(107, 253, 58);
+
+}
+.box{
+    background-color: rgb(8, 8, 8);
+    color: aqua;
+    width: 60%;
+    box-shadow: 10px -10px 50px rgb(107, 253, 58);
+
+}
+.formheading{
+    position: relative;
+    top: 30px;
+    color: aqua;
+    
+
+}
+img{
+    border-radius: 50%;
+    border: 3px solid green;
+}
+footer{
+    
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-family: "The Nautigal", cursive;
+    text-align: center; 
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 20px;
+    color: rgb(8, 2, 2);
+    background: linear-gradient(to right,rgb(254, 100, 18),white,green);
+    transition:0.3s;
+} 
+footer:hover
+{
+    letter-spacing: 2px;
+
+}
+input
+{
+    border:3px solid white;
+}
+input:hover
+{
+    transition: 0.3s;
+    border-color: yellow;
+    letter-spacing: 1px;
+   
+}
